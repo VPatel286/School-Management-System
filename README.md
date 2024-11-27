@@ -14,10 +14,8 @@ The **School Management System** is a web-based application designed to streamli
   - Create and assign courses and manage class schedules.
 - **Attendance Tracking**
   - Record, track, and generate attendance reports.
-- **Grade Reporting**
-  - Input, update, and view student grades.
-- **Reports**
-  - Generate detailed reports on student performance and attendance.
+- **Fee Management**
+  - Managing Fees for students
 
 ---
 
@@ -43,25 +41,51 @@ The **School Management System** is a web-based application designed to streamli
 ## **Project Structure**
 
 ```plaintext
+
 SchoolManagementSystem/
-├── backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── com.example.school/
-│   │   │   │       ├── controllers/
-│   │   │   │       ├── models/
-│   │   │   │       ├── repositories/
-│   │   │   │       └── SchoolManagementSystemApplication.java
-│   │   │   ├── resources/
-│   │   │       ├── application.properties
-│   │   │       └── data.sql
-│   │   ├── test/
-│   ├── pom.xml
-├── frontend/
-│   ├── css/
-│   ├── js/
-│   ├── index.html
-│   ├── login.html
-│   └── dashboard.html
-└── README.md
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── schoolmanagement/
+│   │   │           ├── controller/
+│   │   │           │   └── MainController.java
+│   │   │           ├── model/
+│   │   │           │   ├── User.java
+│   │   │           │   ├── Student.java
+│   │   │           │   ├── Teacher.java
+│   │   │           │   ├── Admin.java
+│   │   │           │   ├── Course.java
+│   │   │           │   ├── Attendance.java
+│   │   │           │   └── Fee.java
+│   │   │           ├── repository/
+│   │   │           │   ├── UserRepository.java
+│   │   │           │   ├── CourseRepository.java
+│   │   │           │   ├── AttendanceRepository.java
+│   │   │           │   └── FeeRepository.java
+│   │   │           ├── service/
+│   │   │           │   ├── UserService.java
+│   │   │           │   ├── CourseService.java
+│   │   │           │   ├── AttendanceService.java
+│   │   │           │   └── FeeService.java
+│   │   │           └── SchoolManagementApplication.java
+│   │   └── resources/
+│   │       ├── static/
+│   │       │   ├── css/
+│   │       │   │   └── styles.css
+│   │       │   ├── js/
+│   │       │   │   └── scripts.js
+│   │       │   └── views/
+│   │       │       ├── index.html
+│   │       │       ├── student.html
+│   │       │       ├── teacher.html
+│   │       │       └── course.html
+│   │       └── templates/
+│   │           └── main.html
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── schoolmanagement/
+│                   └── SchoolManagementApplicationTests.java
+└── pom.xml
+
