@@ -1,5 +1,7 @@
 # **School Management System**
 
+**All the code file it's on Master branch and all the documentation is on main branch**
+
 The **School Management System** is a web-based application designed to streamline administrative tasks in educational institutions. It provides features for managing student and teacher information, attendance tracking, grade handling, and reporting.
 
 ---
