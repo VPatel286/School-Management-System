@@ -41,3 +41,35 @@ The School Management System is a web-based application designed to streamline a
    ```sh
    git clone https://github.com/VPatel286/School-Management-System.git
    cd School-Management-System
+
+## Build the Project:
+- mvn clean install
+  
+## Run the Application:
+- mvn spring-boot:run
+  
+## Access the Application:
+- Open a web browser and go to http://localhost:8080.
+
+## Usage
+*Home Page:*
+- Navigate to the home page to get an overview of the system.
+
+*Student Management:*
+- Click on the "Students" link to manage student records.
+
+*Teacher Management:*
+- Click on the "Teachers" link to manage teacher profiles and course assignments.
+
+*Course Management:*
+- Click on the "Courses" link to manage course information and schedules.
+
+**Contributing**
+
+- Contributions are welcome! Please follow these steps to contribute:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes and commit them (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Create a new Pull Request.
