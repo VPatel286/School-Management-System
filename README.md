@@ -9,8 +9,6 @@ The School Management System is a web-based application designed to streamline a
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
